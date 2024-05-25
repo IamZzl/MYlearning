@@ -1,0 +1,66 @@
+学习 Git 可以从基础开始，逐步掌握其核心概念和常用命令，然后逐步深入了解其高级功能和最佳实践。以下是一个系统的学习路径和资源推荐：
+
+学习路径
+了解基础概念：
+
+版本控制：了解什么是版本控制，为什么需要版本控制。
+Git 基本概念：了解仓库（Repository）、暂存区（Staging Area）、提交（Commit）、分支（Branch）等基本概念。
+安装 Git：
+
+从 Git 官方网站 下载并安装 Git。
+基础操作：
+
+初始化仓库：git init
+克隆仓库：git clone <repository_url>
+查看状态：git status
+添加文件到暂存区：git add <file_name>
+提交变更：git commit -m "commit message"
+查看日志：git log
+查看差异：git diff
+分支与合并：
+
+创建分支：git branch <branch_name>
+切换分支：git checkout <branch_name>
+合并分支：git merge <branch_name>
+删除分支：git branch -d <branch_name>
+远程仓库：
+
+添加远程仓库：git remote add origin <url>
+推送到远程仓库：git push origin <branch_name>
+从远程仓库拉取更新：git pull origin <branch_name>
+高级功能：
+
+标签：git tag
+撤销变更：git revert, git reset
+暂存变更：git stash
+交互式重写提交历史：git rebase -i
+最佳实践：
+
+编写有意义的提交信息。
+频繁提交：保持提交小而频繁。
+使用分支：为每个新功能或修复创建新分支。
+代码评审：在合并代码之前进行代码审查。
+推荐资源
+官方文档：
+
+Pro Git Book（在线免费阅读）
+在线教程：
+
+Codecademy Git Course
+Git Immersion
+Atlassian Git Tutorial
+视频教程：
+
+Git and GitHub for Beginners - Crash Course（YouTube 视频）
+Git Tutorial for Beginners（YouTube 视频）
+练习平台：
+
+Learn Git Branching（互动式学习平台）
+社区和论坛：
+
+Stack Overflow
+GitHub Community Forum
+实践
+创建自己的项目：在 GitHub 或其他托管平台上创建自己的项目，从零开始实践 Git 的各种操作。
+参与开源项目：参与一些开源项目，通过实际的协作来提升自己的 Git 技能。
+通过系统的学习和实践，逐步掌握 Git 的基本操作和高级功能，不仅能提高自己的开发效率，还能更好地与团队协作。
